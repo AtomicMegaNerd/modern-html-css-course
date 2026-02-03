@@ -2,7 +2,7 @@
 
 This repo includes all of the source files for the Modern HTML & CSS From The Beginning 2.0 course. It does not include the premium docs. Those are only available if you purchase the course from traversymedia.com.
 
-### Course Links
+## Course Links
 
 - https://www.traversymedia.com/modern-html-css-from-the-beginning
 - Udemy: https://www.udemy.com/course/modern-html-css-from-the-beginning
@@ -16,3 +16,14 @@ This repo includes all of the source files for the Modern HTML & CSS From The Be
 - Lumina Creative Grid - Uses grid for the gallery instead of flexbox
 - Tutor Website - Second Project
 - Leno Website - Third project. Uses BEM methodology
+
+## Terminal Setup
+
+### Live Server
+
+Running the live-server:
+
+```bash
+npx live-server
+```
+
