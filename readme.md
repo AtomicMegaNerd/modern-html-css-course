@@ -24,6 +24,6 @@ This repo includes all of the source files for the Modern HTML & CSS From The Be
 Running the live-server:
 
 ```bash
-npx live-server
+npx live-server ./<PATH_TO_HTML>
 ```
 
