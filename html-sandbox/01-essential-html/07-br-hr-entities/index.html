@@ -1,11 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=\, initial-scale=1.0" />
     <title>HTML & CSS Sandbox</title>
+    <style></style>
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Line Break, Horizontal Rule & Entities</h1>
+
+    <!-- br forces line breaks. DO NOT USE FOR STYLING USE CSS -->
+    Hello <br />
+    World
+
+    <!-- preserves formatting -->
+    <pre>
+Hello
+Nerds      this is fun
+    </pre>
+
+    <h2>Go code example</h2>
+    <!-- code tag wrapped in a pre tag to preserve formatting. Note that prettier ignores format of
+    text inside pre tags and will try to format text that is outside a pre. -->
+    <pre>
+      <code>
+package main 
+import fmt 
+
+func main() { 
+  fmt.Println("Hello, world")
+}
+      </code>
+      </pre>
+
+    <!-- for displaying HTML code inside code blocks you have to escape it... also note that code 
+      is an inline element. &lt; and &gt; are html entities check w3schools for a list of entities
+      available. -->
+    <p>Hello <code> &lt;h1&gt;This is a heading&lt;/h1&gt; </code> there.</p>
+
+    <!-- useful entity -->
+    <p>&copy;2026 AtomicMegaNerd</p>
   </body>
 </html>

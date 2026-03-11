@@ -1,34 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 0.8em;
+        background-color: #ccffff;
+      }
+      .article-primary {
+        width: 60%;
+      }
+      .text-xl {
+        font-size: 2em;
+        text-align: center;
+      }
+      .text-lg {
+        font-size: 1.6em;
+      }
+      .header {
+        background-color: #33dddd;
+        padding: 0.2em;
+        margin: 0.3em;
+      }
+      .main {
+        padding: 0.2em;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .primary-nav {
+        background-color: #44eeee;
+        padding: 0.2em;
+        margin: 0.3em;
+      }
+      .card {
+        background-color: #77ffff;
+        padding: 0.2em;
+        margin: 0.3em;
+      }
+      .footer {
+        background-color: #33dddd;
+        padding: 0.2em;
+        margin: 0.3em;
+      }
+    </style>
     <title>HTML & CSS Sandbox</title>
   </head>
   <body>
-    <!-- Header -->
-    <div>
-      <h1>My Website</h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-
-    <!-- Sections -->
-    <div>
-      <h2>Section One</h2>
-      <p>This is the first paragraph in <span>section one</span></p>
-      <p>This is the second paragraph in <span>section one</span></p>
-    </div>
-    <div>
-      <h2>Section Two</h2>
-      <p>This is the first paragraph in <span>section two</span></p>
-      <p>This is the second paragraph in <span>section two</span></p>
-    </div>
-
-    <!-- Footer -->
-    <div>&copy; 2024 My Website</div>
+    <article class="article-primary">
+      <!-- Header -->
+      <header class="header">
+        <!-- The instructor uses classes for styling and id's for javascript. Not required but it
+        seems reasonable. -->
+        <h1 class="text-xl">HTML and CSS are Awesome</h1>
+        <nav class="primary-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="card text-center">
+          <h2 class="text-lg">Section One</h2>
+          <p>This is the first paragraph in <span>section one</span></p>
+          <p>This is the second paragraph in <span>section one</span></p>
+        </section>
+        <section class="card text-center">
+          <h2 class="text-lg">Section One</h2>
+          <p>This is the first paragraph in <span>section two</span></p>
+          <p>This is the second paragraph in <span>section two</span></p>
+        </section>
+      </main>
+      <footer class="footer">&copy; 2024 My Website</footer>
+    </article>
   </body>
 </html>
