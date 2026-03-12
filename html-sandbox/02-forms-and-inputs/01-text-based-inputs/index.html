@@ -4,12 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Sandbox</title>
+    <style>
+      body {
+        background-color: #556666;
+        color: #ffffff;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      .form-field {
+        margin: 0.3em;
+      }
+    </style>
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Text Inputs</h1>
     <form>
-      <label for="name">Name</label>
-      <input type="text" id="name" />
+      <div class="form-field">
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+      </div>
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+      </div>
+      <div class="form-field">
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      </div>
+      <div class="form-field">
+        <!-- in HTML5 we can use buttons for submitting as well -->
+        <!-- <input type="submit" value="Submit" /> -->
+        <button type="submit">Submit Moar!</button>
+      </div>
     </form>
   </body>
 </html>
