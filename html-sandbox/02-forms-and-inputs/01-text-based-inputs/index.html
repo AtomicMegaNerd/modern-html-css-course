@@ -10,31 +10,106 @@
         color: #ffffff;
         font-family: Helvetica, Arial, sans-serif;
       }
-      .form-field {
-        margin: 0.3em;
+
+      footer {
+        margin-top: 1em;
+      }
+
+      form {
+        display: table;
+      }
+
+      .form-line {
+        display: table-row;
+      }
+
+      .form-submit,
+      .form-label,
+      .form-input {
+        display: table-cell;
+        padding: 0.3em;
+      }
+
+      .form-label {
+        white-space: nowrap;
       }
     </style>
   </head>
   <body>
-    <h1>HTML & CSS Sandbox - Text Inputs</h1>
-    <form>
-      <div class="form-field">
-        <label for="name">Name</label>
-        <input type="text" id="name" />
-      </div>
-      <div class="form-field">
-        <label for="email">Email</label>
-        <input type="email" id="email" />
-      </div>
-      <div class="form-field">
-        <label for="password">Password</label>
-        <input type="password" id="password" />
-      </div>
-      <div class="form-field">
-        <!-- in HTML5 we can use buttons for submitting as well -->
-        <!-- <input type="submit" value="Submit" /> -->
-        <button type="submit">Submit Moar!</button>
-      </div>
-    </form>
+    <header>
+      <h1>HTML & CSS Sandbox - Text Inputs</h1>
+    </header>
+    <main>
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut,
+          minima itaque repellat amet ea ipsam voluptates! Ab rerum magni
+          laboriosam tenetur? Sapiente, optio veniam rem fugiat voluptate harum
+          excepturi. Vero ab, perspiciatis molestias aut qui maiores dignissimos
+          cumque praesentium beatae reiciendis et aperiam animi. Repudiandae
+          quos autem corporis nulla sapiente sint vel ea maiores, aut ipsum
+          dolorem. Velit officiis consequuntur totam ipsam aliquid dolorum,
+          optio harum dolorem eveniet nam dignissimos ut ab minima soluta
+          adipisci. Officia iure deserunt natus possimus non tempore vitae
+          voluptatibus quia? Provident natus ea rem iste quidem, odit delectus
+          nemo a deserunt voluptatibus at mollitia minima et, numquam vero
+          possimus commodi. Corrupti voluptatem error ut officiis itaque
+          repellat autem at culpa temporibus! Tenetur consequatur hic odit ab,
+          dolore ipsa repellat asperiores numquam! Harum pariatur porro, quo,
+          repellendus unde consequatur delectus veniam aliquam cupiditate
+          recusandae molestiae, enim excepturi eum autem! Tenetur obcaecati sed
+          facilis mollitia reiciendis id nulla odit molestiae sequi quos ratione
+          quia harum commodi accusamus consequuntur, temporibus ex hic unde
+          eveniet quis eaque quae, adipisci in veritatis. Qui ex voluptate
+          officia. Reprehenderit nemo sapiente eius quasi, dolores iure at
+          accusantium commodi ipsam nam earum esse unde quis iusto optio nulla
+          necessitatibus, quas pariatur sunt. Neque animi consectetur dicta
+          voluptatem nostrum perspiciatis, voluptates iste error, esse, quidem
+          quis quae quo adipisci qui. Eum earum veritatis esse, nam, dolores
+          ratione facere eos totam aspernatur debitis tenetur vero fugit
+          necessitatibus sapiente, mollitia quas maxime odio quibusdam? Ad
+          tenetur nisi cum corrupti repellat unde mollitia? Officiis, tenetur
+          maiores!
+        </p>
+        <form>
+          <div class="form-line">
+            <span class="form-label">
+              <label for="name">Name</label>
+            </span>
+            <span class="form-input">
+              <input type="text" id="name" placeholder="Enter name" />
+            </span>
+          </div>
+          <div class="form-line">
+            <span class="form-label">
+              <label for="email">Email</label>
+            </span>
+            <span class="form-input">
+              <input type="email" id="email" placeholder="Enter email" />
+            </span>
+          </div>
+          <div class="form-line">
+            <span class="form-label">
+              <label for="password">Password</label>
+            </span>
+            <span class="form-input">
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter password"
+              />
+            </span>
+          </div>
+          <div class="form-line">
+            <!-- in HTML5 we can use buttons for submitting as well -->
+            <!-- <input type="submit" value="Submit" /> -->
+            <span class="form-submit">
+              <button type="submit">Submit Moar!</button>
+            </span>
+          </div>
+        </form>
+      </article>
+    </main>
+    <footer>&copy;2026 RCD Industries.</footer>
   </body>
 </html>
