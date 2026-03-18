@@ -1,11 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Sandbox</title>
+    <style></style>
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Datalist</h1>
+
+    <h2>Favourite Programming Language</h2>
+    <div class="field-label">
+      <label for="fav_language">Favourite Programming Languages</label>
+    </div>
+    <div class="field">
+      <input list="languages" id="fav_language" name="fav_language" />
+      <datalist id="languages">
+        <option value="Haskell"></option>
+        <option value="Go"></option>
+        <option value="Rust"></option>
+        <option value="Python"></option>
+        <option value="Scala"></option>
+        <option value="Ruby"></option>
+      </datalist>
+    </div>
+
+    <h2>Apppointment</h2>
+    <div class="field-label">
+      <label for="fav_language">Appointment Time</label>
+    </div>
+    <div class="field">
+      <input type="time" list="pop_hours" />
+      <datalist id="pop_hours">
+        <option value="10:00"></option>
+        <option value="12:00"></option>
+        <option value="13:00"></option>
+        <option value="14:00"></option>
+        <option value="15:00"></option>
+        <option value="16:00"></option>
+      </datalist>
+    </div>
+
+    <h2>Tip Amount</h2>
+    <div class="form-field">
+      <label for="tick">Tip Amount</label>
+    </div>
+    <div class="field">
+      <input
+        type="range"
+        name="tick"
+        id="tick"
+        list="tickmarks"
+        min="0"
+        max="100"
+      />
+      <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+      </datalist>
+    </div>
+
+    <h2>Colors</h2>
+    <div class="form-field">
+      <label for="colour">Colour</label>
+    </div>
+    <div class="field">
+      <input
+        type="color"
+        name="colour"
+        id="colour"
+        list="sel_color"
+        value="#FF0000"
+      />
+      <datalist id="sel_color">
+        <option value="#FF0000"></option>
+        <option value="#880000"></option>
+        <option value="#00FF00"></option>
+        <option value="#008800"></option>
+        <option value="#0000FF"></option>
+        <option value="#000088"></option>
+      </datalist>
+    </div>
+
+    <div class="field">
+      <input type="submit" value="Submit" />
+    </div>
   </body>
 </html>

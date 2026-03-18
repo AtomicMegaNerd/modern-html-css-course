@@ -77,7 +77,13 @@
               <label for="name">Name</label>
             </span>
             <span class="form-input">
-              <input type="text" id="name" placeholder="Enter name" />
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter name"
+                required
+                maxlength="72"
+              />
             </span>
           </div>
           <div class="form-line">
@@ -85,7 +91,12 @@
               <label for="email">Email</label>
             </span>
             <span class="form-input">
-              <input type="email" id="email" placeholder="Enter email" />
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter email"
+                required
+              />
             </span>
           </div>
           <div class="form-line">
@@ -97,6 +108,9 @@
                 type="password"
                 id="password"
                 placeholder="Enter password"
+                required
+                minlength="12"
+                maxlength="128"
               />
             </span>
           </div>

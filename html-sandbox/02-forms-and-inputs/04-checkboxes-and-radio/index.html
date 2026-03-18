@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,5 +7,62 @@
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Checkboxes & Radio</h1>
+    <div>
+      <h2>Programming Language</h2>
+      <form method="post" action="rofl">
+        <div>
+          <label for="html">
+            <input type="checkbox" name="languages" id="html" disabled />HTML
+          </label>
+        </div>
+        <div>
+          <label for="javascript">
+            <input
+              type="checkbox"
+              name="languages"
+              id="javascript"
+              checked
+            />Javascript
+          </label>
+        </div>
+        <div>
+          <label for="haskell">
+            <input type="checkbox" name="languages" id="haskell" />Haskell
+          </label>
+        </div>
+        <div>
+          <label for="go">
+            <input type="checkbox" name="languages" id="go" />Go
+          </label>
+        </div>
+        <div>
+          <label for="python">
+            <input type="checkbox" name="languages" id="python" />Python
+          </label>
+        </div>
+        <div>
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+
+    <h2>Shirt Size</h2>
+
+    <div>
+      <form method="post" action="lol">
+        <label for="small">
+          <input type="radio" name="size" id="small" value="small" />Small
+        </label>
+        <label for="medium">
+          <input type="radio" name="size" id="medium" value="medium" />Medium
+        </label>
+        <label for="large">
+          <input type="radio" name="size" id="large" value="large" />Large
+        </label>
+        <div>
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
   </body>
 </html>
