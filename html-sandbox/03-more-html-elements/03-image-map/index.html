@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,6 +7,28 @@
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Image Map</h1>
+
+    <img src="./computer.jpg" alt="MacBook Air" usemap="#computermap" />
+    <map name="computermap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        href="computer.html"
+        alt="MacBook Air"
+      />
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        href="phone.html"
+        alt="iPhone"
+      />
+      <!-- first two coords for circle is centre, 3rd is radius -->
+      <area
+        shape="circle"
+        coords="337,300,45"
+        href="./coffee.html"
+        alt="Coffee"
+      />
     </map>
   </body>
 </html>
