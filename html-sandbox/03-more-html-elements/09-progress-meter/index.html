@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,5 +7,17 @@
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Progress & Meter</h1>
+
+    <!-- Progress -->
+    <label for="file">File progress:</label>
+    <!-- the text inside is for a18y -->
+    <progress id="file" max="100" value="50">50%</progress>
+
+    <!-- Meter has more attribute -->
+    <label for="fuel">Fuel</label>
+    <!-- we can style the different ranges defined here cool -->
+    <meter id="fuel" value="50" min="0" low="30" high="90" optimal="80">
+      50/100
+    </meter>
   </body>
 </html>

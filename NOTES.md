@@ -26,3 +26,4 @@ Use `<iframe>` and ignore the rest.
 
 XML-based vector image format with interactivity and animation (think Flash). They don't lose
 quality when resized or zoomed in.
+

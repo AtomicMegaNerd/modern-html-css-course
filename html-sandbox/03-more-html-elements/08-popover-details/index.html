@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,5 +7,32 @@
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Popover & Details</h1>
+
+    <!-- popover -->
+    <div>
+      <button popovertarget="popover-1">Open Popover One</button>
+      <div popover id="popover-1">This is popover one</div>
+      <button popovertarget="popover-2">Open Popover Two</button>
+      <div popover id="popover-2">
+        <h3>This is another popover</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero,
+          aperiam dolores mollitia iste consectetur facere error aut numquam
+          illo iure, architecto, voluptas sint molestias quos! Commodi, quas.
+          Eaque, voluptatum animi?
+        </p>
+      </div>
+    </div>
+
+    <div style="padding-top: 5em">
+      <!-- details -->
+      <details>
+        <summary>Details</summary>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum fuga
+        dolorem tenetur nihil id sit enim similique cupiditate facere assumenda.
+        Natus, odit labore saepe libero provident ullam excepturi voluptatem
+        veniam.
+      </details>
+    </div>
   </body>
 </html>
