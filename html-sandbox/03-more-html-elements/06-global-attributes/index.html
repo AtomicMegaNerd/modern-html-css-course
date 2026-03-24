@@ -1,12 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Sandbox</title>
   </head>
-
+  <body>
     <h1>HTML & CSS Sandbox - Global Attributes</h1>
 
+    <!-- class -->
+    <h2 class="text-xl">Heading 1</h2>
+
+    <!-- id -->
+    <h2 id="main-heading">Heading 2</h2>
+
+    <!-- style -->
+
+    <!-- accesskey & title -->
+    <button
+      accesskey="h"
+      title="Home button"
+      onclick="alert('Home button clicked!')"
+    >
+      Home
+    </button>
+
+    <!-- hidden -->
+    <div hidden></div>
+
+    <!-- tabindex - change tab order -->
+    <button tabindex="3">Button 1</button>
+    <button tabindex="1">Button 2</button>
+    <button tabindex="2">Button 3</button>
+
+    <!-- contenteditable you can edit the text here but refresh will re-set it -->
+    <div contenteditable="true">This is an editable div element</div>
+
+    <!-- draggable use with a JS drag drop API -->
+    <div draggable="true">This is draggable</div>
+
+    <!-- autofocus - be able to enter text with a field without manually clicking on it for focus -->
+    <input type="text" autofocus />
   </body>
 </html>
