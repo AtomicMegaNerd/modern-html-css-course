@@ -2,3 +2,6 @@ html-css-slides.key
 premium-docs
 node-modules
 .DS_Store
+.envrc
+.direnv
+.pre-commit-config.yaml
