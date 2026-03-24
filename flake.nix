@@ -56,7 +56,7 @@
             buildInputs = with pkgs; [
               bash-language-server
               yaml-language-server
-              emmet-language-server
+              emmet-ls
               vscode-langservers-extracted
               htmlhint
             ];
