@@ -1,11 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Sandbox</title>
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      .first_name {
+        background-color: #ccffff;
+      }
+
+      .last_name {
+        background-color: #ffccff;
+      }
+    </style>
   </head>
   <body>
+    <!-- only use tables for tabular data never for layout -->
     <h1>HTML & CSS Sandbox - Tables</h1>
+    <table border="1">
+      <colgroup>
+        <col class="first_name" />
+        <col class="last_name" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th colspan="2">Telephone Numbers</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@fake.com</td>
+          <td>555-555-5555</td>
+          <td>555-555-5556</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>Doe</td>
+          <td>jane@fake.com</td>
+          <td>555-555-5557</td>
+          <td>555-555-5557</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
