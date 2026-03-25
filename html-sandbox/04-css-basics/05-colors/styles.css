@@ -1,3 +1,23 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
+  background: rgb(255, 255, 255); /* white */
+}
+
+/* Color Names */
+.sporty {
+  color: red;
+}
+
+/* Hex Values */
+.casual {
+  color: green;
+}
+
+.formal {
+  color: blue;
+}
+
+.card {
+  /* RGBA */
+  background: rgba(0, 0, 0, 0.2);
 }
