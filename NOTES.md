@@ -121,6 +121,8 @@ overwrite earlier declarations as long as the specificity is the same.
 
 [Font Awesome](https://fontawesome.com) - icon library (free and premium).
 
+These are fonts. You can apply 
+
 ### CDNJS
 
 Use [cdnjs](https://cdnjs.com/) without registering on the font awesome site. Looks like this CDN 
