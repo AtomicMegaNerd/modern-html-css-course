@@ -10,6 +10,34 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
+
+  /* Background Color */
+  /* ============================================================================== */
+  /* background-color: coral; */
+
+  /* Background Images */
+  /* ============================================================================== */
+  /* NOTE: On background pos you can set absolute values:200px, -500px, if you want or % */
+
+  /* background-image: url("./hero.jpg"); */
+  /* background-size: cover; /* very common */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+
+  /* Shorthand */
+  /* background: url("./hero.jpg") no-repeat center/cover; */
+
+  /* NOTE: this will make the background image fixed when you scroll the text. However you still 
+   * need to figure out how to fix the height of the .hero container to make this work properly...
+   */
+  /* background-attachment: fixed; */
+
+  /* Gradients */
+  /* ============================================================================== */
+  background: linear-gradient(to bottom, lightblue, darkblue);
+  background: linear-gradient(to left, lightblue, darkblue);
+  background: linear-gradient(to right, lightblue, darkblue);
+  background: linear-gradient(to top right, lightblue, darkblue);
 }
 
 .hero h1 {

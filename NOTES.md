@@ -100,3 +100,7 @@ Also in the CSS file the last declaration wins if the specificity is otherwise t
 overwrite earlier declarations as long as the specificity is the same.
 
 **NOTE:** `! important` is an overrride that makes anything win, but limit its use.
+
+## Backgrounds
+
+- Background iamges repeat by default which is useful for textures.
