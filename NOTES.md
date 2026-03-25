@@ -28,7 +28,7 @@ quality when resized or zoomed in.
 
 ## CSS Selectors
 
-**NOTE:** Recommends using classes exclusively for styling, tailwind always use classes
+**NOTE:** instructor recommends using classes exclusively for styling, tailwind always use classes
 
 ## Web Fonts
 
@@ -86,7 +86,7 @@ I am ignoring this as he is not using that
 
 ### Opacity
 
-**NOTE:** There is a separate `opacity` property we can use if we do not want to use `rgba` or
+**NOTE:** there is a separate `opacity` property we can use if we do not want to use `rgba` or
 `hsla1`.
 
 ## Specificity
@@ -104,3 +104,34 @@ overwrite earlier declarations as long as the specificity is the same.
 ## Backgrounds
 
 - Background iamges repeat by default which is useful for textures.
+
+## Styling Links
+
+### States
+
+- `a:link` - normal unvisited link
+- `a:hover` - link when hovererd
+- `a:active` - moment link is clicked
+- `a:focus` - moment link receives focus
+- `a:visited` - link user has visited
+
+**NOTE:** regular `a` and `a:hover` are the most commonly used.
+
+## Font Awesome
+
+[Font Awesome](https://fontawesome.com) - icon library (free and premium).
+
+### CDNJS
+
+Use [cdnjs](https://cdnjs.com/) without registering on the font awesome site. Looks like this CDN 
+is operated by cloudeflare.
+
+Search for `font awesome`, select latest version and then copy the link for the css we want (i.e.
+all.min.css).
+
+#### Example
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+```
+
