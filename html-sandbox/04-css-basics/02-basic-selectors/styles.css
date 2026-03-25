@@ -1,14 +1,11 @@
-/* h2 { */
-/*   color: red; */
-/*   font-size: 30px; */
-/* } */
-/**/
-/* a { */
-/*   color: blue; */
-/*   text-decoration: none; */
-/* }; */
+/* Note that all child elements inherit some properties from parents by default. Some elements are
+ * not inheritable. 
+ */
+body {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
 
-/* Class Selectors */
+/* Class Selectors - most common for styling */
 .sporty {
   color: red;
 }
@@ -21,7 +18,7 @@
   color: brown;
 }
 
-/* ID Selectors */
+/* ID Selectors - less commonly used */
 #container {
   max-width: 600px;
   margin: 100px auto;
@@ -31,4 +28,16 @@
 .casual,
 .sporty {
   font-size: 35px;
+}
+
+p {
+  background: red;
+}
+
+/* 
+ * Descendant Styles - only paragraph tags inside the container. This is more specific than the red
+ * font above.
+ */
+#container p {
+  background: blue;
 }
